@@ -4,11 +4,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<title>Add-Employee</title>
 </head>
 <body>
-<h1>This is Homepage!</h1>
-<a class="button" href="employee/empDetails">Add Details</a>
+<div class="alert alert-success" role="alert">
+  ${msg}
+</div>
+<h3>Employee name is: ${empName}</h3>
+<h3>Employee department is: ${empDept}</h3>
 </body>
 </html>
